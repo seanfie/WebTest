@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>京东(JD.COM)-正品低价、品质保障、配送及时、轻松购物！</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        ul li{
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            border:1px solid  black  ;
+        }
+        .a{
+            width:800px;
+            height: 500px;
+            background-color: #1296db;
+            position: absolute;
+            top: 0;
+            left: 100px;
+            display: none;
+        }
+        ol li:hover .a{
+            display: block;
+        }
+        ol li:nth-child(2).a{
+            background-color: red;
+        }
+
+        .F1{
+            width:1278.4px;
+            height:480px;
+            background-color: cornsilk;
+            margin: auto;
+            /*水平居中*/
+        }
+        .F2{
+            width:1190px;
+            height: 480px;
+            background-color: floralwhite;
+            margin-left: 44px;
+
+        }
+        #s1,#s2,#s3,#s4{
+            float: left;
+            margin-left:5px;
+
+        }
+
+
+        .S1{
+            width: 190px;
+            height: 470px;
+            border: 1px solid black;
+        }
+        .S1 li {
+            list-style: none;
+            font-size: 16px;
+        }
+
+/*******************************************/
+        #s2{
+
+            width:590px;
+            height: 470px;
+
+            position: relative;
+            overflow: hidden;
+
+        }
+        #s2 div{
+            width: 590px;
+            height: 470px;
+            position: absolute;
+            left: 590px;
+            top: 0;
+        }
+        #s2 div:nth-child(1){
+
+            background-image: url("img/big_01.jpg");
+        }
+        #s2  div:nth-child(2){
+
+            background-image: url("img/big_02.jpg");
+        }
+        #s2  div:nth-child(3){
+
+            background-image: url("img/big_03.jpg");
+        }
+        #s2  div:nth-child(4){
+
+            background-image: url("img/big_04.jpg");
+        }
+        #s2  div:nth-child(5){
+
+            background-image: url("img/big_05.jpg");
+        }
+        @keyframes in {
+            from{
+
+                left: 590px;
+            }to{
+                 left: 0;
+             }
+        }
+        @keyframes out {
+            from{
+                left:  0;
+            }to{
+                 left: -590px;
+             }
+        }
+        #s2 .s21{
+            animation: in 3s;
+            left: 0;
+        }
+        #s2 .s22{
+            animation: out 3s;
+            left: -590px;
+        }
+        #s2 ul{
+            list-style:none;
+            position: absolute;
+            bottom:20px;
+            left: 30px;
+        }
+        #s2 ul li{
+            width: 8px;
+            height:8px;
+            background-color: white;
+            border-radius: 50%;
+            float:left;
+            margin-right:10px ;
+            cursor:pointer;
+        }
+        /***************************************************************/
+        .S3{
+            width: 190px;
+            height:150px;
+            background-repeat: no-repeat;
+            background-size: 190px;
+        }
+        .S4{
+            width: 190px;
+            height: 480px;
+            background-color: ghostwhite;
+
+        }
+
+        .logo{
+            border: 5px solid #e3e1df;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            overflow: hidden;
+            -webkit-box-shadow: 3px 6px 25px #c3c3c3;
+            -moz-box-shadow: 3px 6px 25px #c3c3c3;
+            box-shadow: 3px 6px 25px #c3c3c3;
+            background-repeat: no-repeat;
+            width: 55px;
+            height: 55px;
+            margin-bottom: -20px;
+        }
+        p:hover{
+            color: orangered;
+        }
+        li:hover{
+            color: orangered;
+        }
+        .logo1{
+            font-size: 12px;
+            border:1px solid blanchedalmond;
+            height: 18px;
+            width: 60px;
+            float: left;
+            text-align: center;
+            margin-left: 20px;
+
+        }
+        .c1{
+            width: 190px;
+            height: 130px;
+
+        }
+        .c2{
+            float: left;
+        }
+        .text-1{
+            color: #666;
+            overflow: hidden;
+            white-space:nowrap ;
+            text-overflow: ellipsis;
+            text-align:left;
+            line-height:5px;
+        }
+        .logo2{
+            width:190px ;
+            height:130px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="F1">
+    <div class="F2">
+        <div id="s1" class="S1">
+            <ol>
+                <li>
+                    <div class="a"></div>
+                </li>
+                <li>
+                    <div class="a">dsgsbvs</div>
+                </li>
+
+                <li>家用电器</li>
+                <li>手机/运营商/数码</li>
+                <li>电脑/办公</li>
+                <li>家居/家具/家装/厨具</li>
+                <li>男装/女装/童装/内衣</li>
+                <li>美妆/个护清洁/宠物</li>
+                <li>女鞋/箱包/钟表/珠宝</li>
+                <li>男鞋/运动/户外</li>
+                <li>房产/汽车/汽车用品</li>
+                <li>母婴/玩具乐器</li>
+                <li>食品/酒类/生鲜/特产</li>
+                <li>艺术/礼品鲜花/农资绿植</li>
+                <li>医药保健/计生情趣</li>
+                <li>图书/文娱/电子书</li>
+                <li>机票/酒店/旅游/生活</li>
+                <li>理财/众筹/白条/保险</li>
+                <li>安装/维修/清洗/二手</li>
+            </ol>
+        </div>
+        <div id="s2">
+            <div class="s21"></div>
+            <div class="s22"></div>
+            <div class="s22"></div>
+            <div class="s22"></div>
+            <div class="s22"></div>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <!--<div id="s3">-->
+            <!--<div class="S3" style="background-image: url('img/11111.jpg!q90!cc_190x150')">-->
+            <!--</div>-->
+            <!--<div class="S3" style="background-image:url('img/01.jpg!q90!cc_190x150');margin-top: 9px ">-->
+            <!--</div>-->
+            <!--<div class="S3" style="background-image: url('img/02.jpg!q90!cc_190x150');margin-top:9px">-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<div id="s4" class="S4">-->
+            <!--<div align="center">-->
+                <!--<img src="img/01.jpg" alt="加载失败" class="logo" style="margin-bottom: 10px">-->
+                <!--<p style="font-size:11px;margin-top: -14px">Hi~欢迎来到京东！</p>-->
+                <!--<p style="font-size:11px;margin-top: -10px">登录 注册 <p/>-->
+                <!--<div class="logo1" style="background-color:lightyellow;color: red">新人福利</div>-->
+                <!--<div class="logo1" style="background-color:black;color:yellow">PLUS会员</div>-->
+            <!--</div>-->
+            <!--<br>-->
+            <!--&lt;!&ndash;<div class="c1">&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="c2"><p style="font-weight: bold">京东快报</p></div>&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="c2" style="margin-left: 80px"><p>更多></p></div>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="text-1">&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>iPhone XR滑近2000开始探底！128G太靓了</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>三大运营商再次官宣：4G升级成5G手机需要满足以下条件</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>华为劲敌已到来：又一国产处理器崛起，媲美麒麟980！</p>&ndash;&gt;-->
+                <!--&lt;!&ndash;<p>五一在高速堵了3小时，才明白带“T”和带“L”的车区别</p>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+        <!--</div>-->
+        <!--<div class="logo2"></div>-->
+    </div>
+</div>
+
+
+
+<script>
+
+    /*
+    *获取同级元素的方式siblings()
+    * */
+    $(function () {
+        $("#s2 ul li").mousemove(function () {
+            //获取当前元素的数组下标
+            var index =$(this).index();
+            $("#s2 div").eq(index).addClass("s21").removeClass("s22").siblings("div").addClass("s22").removeClass("s21")
+        });
+        var i=1;
+        var a;
+        a  =   setInterval(function () {
+            i++;
+            if (i>4){
+                i=0;
+            }
+            $("#s2 div").eq(i).addClass("s21").removeClass("s22").siblings("div").addClass("s22").removeClass("s21")
+        },6000);
+        $("#wrap div").mousemove(function () {
+            clearInterval(a)
+        })
+    });
+
+
+</script>
+</body>
+</html>
